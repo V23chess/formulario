@@ -1,0 +1,96 @@
+body{
+    font-family: arial, helvetica,sans-serif;
+    margin: 20px;
+    background-image: url(https://media.istockphoto.com/id/1390631668/pt/foto/modern-abstract-purple-background.jpg?s=1024x1024&w=is&k=20&c=mCJ3dtS84Fdbrk7uN9zfUCfcrIKLFVaLYemvtAk4VnM=);
+    background-repeat: round;
+    color: #ffffff;
+
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+footer{
+    text-align: center;
+    margin: 30px;
+    
+}
+
+form{
+
+    background-color: #4e1b668f;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px #9552cc;
+    ;
+
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin: 10 0 5px 0;
+
+}
+
+input[type="text"]
+input[type="password"]
+input[type="email"]
+input[type="number"]
+input[type="url"]
+input[type="tel"]
+input[type="date"]
+input[type="color"],
+select,
+textarea{
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #b465f5;
+    ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 25px);
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button{
+    width: 30%;
+    padding: 10px;
+    background-color: #d083ee;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color:#b465f5;
+    ;
+}
+
+.small-input{
+    width: auto;
+    display: inline-block;
+}
+
+.inline-label{
+    display: inline-block;
+    margin-right: 10px;
+}
